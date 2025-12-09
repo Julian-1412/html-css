@@ -8,3 +8,82 @@ h1{
     align-items: center;
     justify-content:space-around
 }
+
+
+
+
+/*mascotas section*/
+#body{
+    background-color: rgb(187, 212, 212);
+}
+
+.titulo_mascotas{
+    font-size: 70px;
+}
+.tarjetas{
+    display: flex;
+    justify-content:center;
+    padding: 50px;
+    
+}
+.tarjetas1{
+        margin: 30px;
+        padding: 50px;
+        text-align: center;
+        box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+        margin-right: 30px;
+        border-radius: 2%;
+        border:0.2px solid black;  
+        background-color: rgb(221, 219, 219);          
+
+}
+
+
+.imagenes_animales2{
+    width: 500px;
+    height: 400px;
+    margin: 30px;
+    padding: 50px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 2%;
+    border: 1px solid black;
+    background-color: rgb(221, 219, 219); 
+    transition: ease 0.8s;
+
+}
+
+.imagenes_animales2:hover{
+    scale: 1.1;
+    background-color: rgb(119, 119, 119);
+}
+
+.titulos_tarjetas{
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parrafos_tarjetas{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: justify;
+
+}
+.regreso{
+    font-size: 40px;
+    display: flex;
+    padding-left: 100px;
+}
+.boton{
+    height: 80px;
+    width: 500px;
+    font-size: 28px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: ease 0.8s;
+}
+.boton:hover{
+    scale: 1.1;
+    background-color: rgb(37, 37, 37);
+    color: honeydew;
+}
