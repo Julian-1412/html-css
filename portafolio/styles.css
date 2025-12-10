@@ -1,15 +1,90 @@
-h1{
+/*index section */ 
+
+#body_index{
+    background-color: rgb(186, 221, 251);
+    margin: 50px;
+}
+
+.h1_index{
     display: flex;
     justify-content: center;
+    color: rgb(204, 141, 96);
 }
 
 #nav{
     display: flex;
     align-items: center;
-    justify-content:space-around
+    justify-content:space-around;
+    cursor: pointer;
+    transition: ease 0.8s;
+    font-size: 20px;
+
+}
+#nav a{
+    color: rgb(114, 111, 108);
+    text-decoration: none;
 }
 
+#nav:hover{
+    scale: 1.1;
 
+}
+#nav a:hover{
+    color: rgb(249, 174, 147);
+}
+
+.titulo_sobre_mi{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(204, 141, 96)
+}
+
+#sobre_mi p{
+border: 1px solid black;
+padding: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 16px;
+text-align: justify;
+color: rgb(114, 111, 108);
+}
+
+#portafolio h3{
+    color: rgb(204, 141, 96);
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-size: 28px;
+    
+}
+
+#portafolio a{
+    text-decoration: none;
+    color: brown;
+}
+#portafolio ul{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    
+}
+.tarjetas_portafolio{
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    background-color: rgb(235, 233, 233);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5%;
+    transition: ease 0.8s;
+}
+
+.tarjetas_portafolio:hover{
+    scale: 1.1;
+}
+
+.imagenes_portafolio{
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
 
 
 /*mascotas section*/
@@ -19,6 +94,8 @@ h1{
 
 .titulo_mascotas{
     font-size: 70px;
+    display: flex;
+    justify-content: center;
 }
 .tarjetas{
     display: flex;
@@ -33,11 +110,10 @@ h1{
         box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
         margin-right: 30px;
         border-radius: 2%;
-        border:0.2px solid black;  
+        border:1px solid black;  
         background-color: rgb(221, 219, 219);          
 
 }
-
 
 .imagenes_animales2{
     width: 500px;

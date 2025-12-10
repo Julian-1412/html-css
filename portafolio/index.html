@@ -9,9 +9,9 @@
     <meta> 
     <title>Portafolio personal</title>
 </head>
-<body>
+<body id="body_index">
     <header>
-        <h1>Julian Steven Elejalde Gomez</h1>
+        <h1 class="h1_index">Julian Steven Elejalde Gomez</h1>
         <nav id="nav">          
             <h2><a href="#sobre_mi">Sobre mi</a></h2>
             <h2><a href="#portafolio">Portafolio</a></h2>
@@ -20,14 +20,22 @@
         </nav>
     </header>
     <section id="sobre_mi">
-        <h3>Sobre mi</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum voluptates iste impedit reprehenderit, a nisi quis perspiciatis quod dolore laboriosam illum eveniet saepe natus est quas minus delectus nobis dolor?</p>
+        <h3 class="titulo_sobre_mi">Sobre mi</h3>
+        <p>Soy un coder en formación con una pasión inagotable por transformar ideas en realidad digital. Actualmente, estoy inmerso en el emocionante mundo del desarrollo, dominando tecnologías fundamentales como HTML, CSS, y JavaScript.
+        Cada día es un nuevo desafío que abrazo con entusiasmo, desde depurar mi primer bug hasta entender la lógica compleja de los frameworks. Mi objetivo es convertirme en un desarrollador full-stack capaz de construir soluciones robustas y elegantes.
+        Estoy constantemente buscando nuevos proyectos para aplicar mis conocimientos y aprender de la comunidad. Mi motor es la curiosidad y estoy profundamente motivado a seguir creciendo y codificando mi camino hacia una carrera exitosa en la tecnología.</p>
     </section>
     <section id="portafolio">
         <h3>Portafolio</h3>
         <ul>
-            <li><a href="https://www.minsalud.gov.co/Portada/index.html" target="_blank">Orientación en salud</a></li>
-            <li><a href="https://mipres.sispro.gov.co/MIPRESNOPBS/Login.aspx?ReturnUrl=%2fMIPRESNOPBS" target="_blank">Prescripción nutricional</a></li>
+            <div class="tarjetas_portafolio">
+                <li><a href="https://www.minsalud.gov.co/Portada/index.html" target="_blank">Orientación en salud</a></li>
+                <a href="https://www.minsalud.gov.co/Portada/index.html" target="_blank"> <img class="imagenes_portafolio" src="./images/orientacion.webp" alt="orientacion picture"></a>
+            </div>
+            <div class="tarjetas_portafolio">
+                <li><a href="https://mipres.sispro.gov.co/MIPRESNOPBS/Login.aspx?ReturnUrl=%2fMIPRESNOPBS" target="_blank">Prescripción nutricional</a></li>
+                <a href="https://mipres.sispro.gov.co/MIPRESNOPBS/Login.aspx?ReturnUrl=%2fMIPRESNOPBS" target="_blank"> <img class="imagenes_portafolio" src="./images/prescripcion_nutricional.jpeg" alt="prescripcion picture"></a>
+            </div>
         </ul>
     </section>
     <section id="contacto"> 
