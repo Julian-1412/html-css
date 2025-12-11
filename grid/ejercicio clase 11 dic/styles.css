@@ -1,0 +1,23 @@
+body{
+    background-color: #F9F1F0;
+    font-family: "Outfit", sans-serif;
+    margin: 24px;
+    width: auto;
+}
+.main_header{
+    width: auto;
+    height: 101px;
+    background-color: #FADCD9;
+}
+.section_header{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+.nav_header{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
