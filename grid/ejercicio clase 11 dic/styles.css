@@ -2,7 +2,7 @@ body{
     background-color: #F9F1F0;
     font-family: "Outfit", sans-serif;
     margin: 24px;
-    width: auto;
+    max-width: 1440px;
 }
 .main_header{
     width: auto;
@@ -11,6 +11,12 @@ body{
     border-radius: 20px;
     margin-bottom: 40px;
     
+}
+.section_grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color: rgb(177, 174, 174);
+    height: 876px;
 }
 .section_header{
     display: flex;
@@ -32,9 +38,35 @@ body{
 }
 .section_grid1{
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
+    background-color: aqua;
 }
 .grid_cuadro1{
     background-color: #FADCD9;
     border-radius: 20px;
+    width: 565px;
+    height: 479px;
+    
+}
+.grid_cuadro2{
+    border-radius: 20px;
+    width: 330px;
+    height: 476px;
+    overflow: hidden;
+    background-color: brown;
+}
+.section_grid2{
+    background-color: #FADCD9;
+    border-radius: 20px;
+}
+.ensayo{
+    background-color: chartreuse;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ensayo1{
+    background-color: cadetblue;
+}
+.ensayo2{
+    background-color: rgb(12, 107, 110);
 }
