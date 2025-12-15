@@ -15,8 +15,7 @@ body{
 .section_grid{
     display: grid;
     grid-template-columns: 2fr 1fr;
-    background-color: rgb(177, 174, 174);
-    height: 876px;
+    gap: 49px;
 }
 .section_header{
     display: flex;
@@ -38,35 +37,98 @@ body{
 }
 .section_grid1{
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    background-color: aqua;
+    grid-template-rows: 1fr 1fr;
+    gap: 49px;
+}
+.cuadro1{
+    display: grid;
+    grid-template-columns: 565px 330px;
+    gap: 49px;
 }
 .grid_cuadro1{
     background-color: #FADCD9;
     border-radius: 20px;
-    width: 565px;
+    width: 525px;
     height: 479px;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 20px 0px 20px;
 }
+.cuadro1_flor{
+    display: flex;
+    justify-content: end;
+}
+
 .grid_cuadro2{
     border-radius: 20px;
     width: 330px;
     height: 476px;
     overflow: hidden;
-    background-color: brown;
 }
+
+.cuadro2{
+    display: grid;
+    grid-template-columns: 448px 448px;
+    gap: 49px;
+}
+.grid_cuadro3{
+    border-radius: 20px;
+    background-color: #FADCD9;
+    width: 408px;
+    height: 351px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 20px 0px 20px;
+}
+.cuadro3_p{
+    font-size: 20px;
+    font-weight: 300;
+    font-style: light;
+}
+
+.grid_cuadro4{
+    background-color: #F8AFA6;
+    border-radius: 20px;
+    width: 408px;
+    height: 351px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 0px 20px 0px 20px;
+    gap: 50px;
+}
+
+.cuadro4_p2{
+    font-size: 55px;
+    font-weight:400;
+    font-style: medium;
+}
+
 .section_grid2{
+    display: grid;
+    grid-template-rows: 726px 101px;
+    gap: 49px;
+}
+
+.grid2_general1{
     background-color: #FADCD9;
     border-radius: 20px;
+    width: 417px;
+    height: 686px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 10px 20px 20px;
 }
-.ensayo{
-    background-color: chartreuse;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-.ensayo1{
-    background-color: cadetblue;
-}
-.ensayo2{
-    background-color: rgb(12, 107, 110);
+
+.grid2_general2{
+    background-color: #FADCD9;
+    border-radius: 20px;
+    width: 448px;
+    height: 101px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
