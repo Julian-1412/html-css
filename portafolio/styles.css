@@ -41,7 +41,7 @@
 }
 
 #sobre_mi p{
-border: 1px solid black;
+border: 2px solid black;
 padding: 20px;
 font-family: "Arvo", serif;
 font-size: 16px;
@@ -69,7 +69,7 @@ color: rgb(114, 111, 108);
     
 }
 .tarjetas_portafolio{
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
     background-color: rgb(235, 233, 233);
     text-align: center;
     padding: 10px;
@@ -87,6 +87,25 @@ color: rgb(114, 111, 108);
     cursor: pointer;
 }
 
+.imagen_linkmascotas{
+    border-radius: 20px;
+    box-shadow: 0 0px 20px rgba(0,0,0,1);
+}
+
+#contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    gap: 100px;
+}
+
+.iconos{
+    width: 50px;
+    height: 50px;
+
+}
 
 /*mascotas section*/
 #body{
