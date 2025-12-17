@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: o 15px;
+}
+/*index section */ 
+
+#body_index{
+    background-color: rgb(186, 221, 251);
+    margin: 20px;
+    font-family: "Arvo", serif;
+    
+}
+
+.h1_index{
+    color: rgb(204, 141, 96);
+    margin-bottom: 1rem;
+}
+
+#nav{
+    cursor: pointer;
+    font-size: 20px;
+    margin-bottom: 1rem;
+
+}
+#nav a{
+    color: rgb(114, 111, 108);
+    text-decoration: none;
+}
+
+
+.titulo_sobre_mi{
+    font-family: "Arvo", serif;
+    font-size: 30px;
+    color: rgb(204, 141, 96)
+}
+
+#sobre_mi p{
+border: 2px solid black;
+padding: 20px;
+font-family: "Arvo", serif;
+font-size: 16px;
+text-align: justify;
+color: rgb(114, 111, 108);
+margin-bottom: 1rem;
+}
+
+
+
+#portafolio h3{
+    color: rgb(204, 141, 96);
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-size: 28px;
+    
+}
+
+#portafolio a{
+    text-decoration: none;
+    color: brown;
+    font-size: 25px;
+}
+
+.tarjetas_portafolio{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    background-color: rgb(235, 233, 233);
+    padding: 10px;
+    border-radius: 5%;
+    transition: ease 0.8s;
+    width: 400px;
+    height: 350px;
+    border: 2px solid black;
+}
+
+.tarjetas_portafolio:hover{
+    scale: 1.1;
+}
+
+.imagenes_portafolio{
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+
+.contacto1 h3{
+    color: rgb(204, 141, 96)
+}
+
+
+
+/*mascotas section*/
+#body_mascotas{
+    background-color: rgb(187, 212, 212);
+    font-family: "Arvo", serif;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.titulo_mascotas{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+.tarjetas{
+    display: flex;
+    justify-content:center;
+    padding: 50px;
+    
+}
+.tarjetas1{
+    margin: 30px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    margin-right: 30px;
+    border-radius: 2%;
+    border:1px solid black;  
+    background-color: rgb(221, 219, 219);          
+
+}
+
+.imagenes_animales2{
+    width: 500px;
+    height: 600px;
+    margin: 30px;
+    padding: 50px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 2%;
+    border: 1px solid black;
+    background-color: rgb(221, 219, 219); 
+    transition: ease 0.8s;
+
+}
+
+.imagenes_animales2:hover{
+    scale: 1.1;
+    background-color: rgb(119, 119, 119);
+}
+
+.titulos_tarjetas{
+    font-size: 60px;
+    font-family: "Arvo", serif;
+}
+
+.parrafos_tarjetas{
+    font-size: 30px;
+    font-family: "Arvo", serif;
+    text-align: justify;
+
+}
+.regreso{
+    font-size: 40px;
+    display: flex;
+    padding-left: 100px;
+}
+.boton{
+    height: 80px;
+    width: 500px;
+    font-size: 28px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: ease 0.8s;
+}
+.boton:hover{
+    scale: 1.1;
+    background-color: rgb(37, 37, 37);
+    color: honeydew;
+}
+
+

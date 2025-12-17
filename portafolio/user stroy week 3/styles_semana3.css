@@ -1,0 +1,424 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: o 15px;
+}
+/*index section */ 
+
+#body_index{
+    background-color: rgb(186, 221, 251);
+    margin: 20px;
+    font-family: "Arvo", serif;
+    
+}
+
+.h1_index{
+    display: flex;
+    justify-content: center;
+    color: rgb(204, 141, 96);
+    margin-bottom: 1rem;
+}
+
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    cursor: pointer;
+    transition: ease 0.8s;
+    font-size: 20px;
+    margin-bottom: 1rem;
+
+}
+#nav a{
+    color: rgb(114, 111, 108);
+    text-decoration: none;
+}
+
+#nav:hover{
+    scale: 1.1;
+
+}
+#nav a:hover{
+    color: rgb(249, 174, 147);
+}
+
+.titulo_sobre_mi{
+    font-family: "Arvo", serif;
+    font-size: 30px;
+    color: rgb(204, 141, 96)
+}
+
+#sobre_mi p{
+border: 2px solid black;
+padding: 20px;
+font-family: "Arvo", serif;
+font-size: 16px;
+text-align: justify;
+color: rgb(114, 111, 108);
+margin-bottom: 1rem;
+}
+
+#portafolio{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 30px;
+
+}
+
+#portafolio h3{
+    color: rgb(204, 141, 96);
+    padding-bottom: 15px;
+    padding-top: 20px;
+    font-size: 28px;
+    
+}
+
+#portafolio a{
+    text-decoration: none;
+    color: brown;
+    font-size: 25px;
+}
+
+.tarjetas_portafolio{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    background-color: rgb(235, 233, 233);
+    text-align: center;
+    padding: 10px;
+    border-radius: 5%;
+    transition: ease 0.8s;
+    width: 400px;
+    height: 350px;
+    border: 2px solid black;
+}
+
+.tarjetas_portafolio:hover{
+    scale: 1.1;
+}
+
+.imagenes_portafolio{
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.imagen_linkmascotas{
+    border-radius: 20px;
+    box-shadow: 0 0px 20px rgba(0,0,0,1);
+}
+
+#contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    gap: 70px;
+    margin-bottom: 2rem;
+}
+
+.enlace_mascotas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+}
+.enlace_mascotas *{
+    margin-left: 0;
+    margin-right: 0;
+}
+.contacto1 h3{
+    color: rgb(204, 141, 96)
+}
+.contacto1_mainp{
+    display: flex;
+    text-align: justify;
+}
+
+.tarjeta_contacto{
+    display: grid;
+    grid-template-columns: 100px 200px;
+    gap: 30px;
+}
+
+.iconos{
+    width: 50px;
+    height: 50px;
+
+}
+
+.contacto2_formulario{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.formulario_label{
+    font-size: 20px;
+    margin: 10px;
+
+}
+.formulario_input{
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    margin: 10px;
+
+}
+
+.formulario_textarea{
+    width: 400px;
+    height: 100px;
+    margin: 10px;
+}
+
+.formulario_button{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(47, 182, 187);
+    margin: 10px;
+    border-bottom: 5px 5px 5px 5px solid black;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.formulario_button:hover{
+    scale: 1.1;
+    transition: ease 0.5s;
+    background-color: darkorange;
+}
+
+/* footer section*/
+footer {
+    background-color: #333; 
+    color: #fff; 
+    padding: 20px 0; 
+    text-align: center; 
+    width: 100%; 
+    margin-top: 20px; 
+}
+
+
+.social_links a {
+    color: #fff; 
+    text-decoration: none; 
+    margin: 0 15px; 
+    font-size: 15px;
+    transition: color 0.3s;
+}
+
+
+.social_links a:hover {
+    color: #00bcd4; 
+}
+
+/*mascotas section*/
+#body_mascotas{
+    background-color: rgb(187, 212, 212);
+    font-family: "Arvo", serif;
+    margin: 20px;
+    box-sizing: border-box;
+}
+
+.titulo_mascotas{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+.tarjetas{
+    display: flex;
+    justify-content:center;
+    padding: 50px;
+    
+}
+.tarjetas1{
+    margin: 30px;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    margin-right: 30px;
+    border-radius: 2%;
+    border:1px solid black;  
+    background-color: rgb(221, 219, 219);          
+
+}
+
+.imagenes_animales2{
+    width: 500px;
+    height: 600px;
+    margin: 30px;
+    padding: 50px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 2%;
+    border: 1px solid black;
+    background-color: rgb(221, 219, 219); 
+    transition: ease 0.8s;
+
+}
+
+.imagenes_animales2:hover{
+    scale: 1.1;
+    background-color: rgb(119, 119, 119);
+}
+
+.titulos_tarjetas{
+    font-size: 60px;
+    font-family: "Arvo", serif;
+}
+
+.parrafos_tarjetas{
+    font-size: 30px;
+    font-family: "Arvo", serif;
+    text-align: justify;
+
+}
+.regreso{
+    font-size: 40px;
+    display: flex;
+    padding-left: 100px;
+}
+.boton{
+    height: 80px;
+    width: 500px;
+    font-size: 28px;
+    background-color: blanchedalmond;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: ease 0.8s;
+}
+.boton:hover{
+    scale: 1.1;
+    background-color: rgb(37, 37, 37);
+    color: honeydew;
+}
+
+.clientes{
+    border: 1px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(247, 247, 235);
+    margin-bottom: 30px;
+}
+
+.clientes h3{
+    font-size: 30px;
+}
+.clientes_p{
+    font-size: 20px;
+}
+
+.clientes_tarjetas{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap:30px;
+    margin: 0 auto;
+    max-width:1200 px;
+    
+}
+
+.clientes_imagenes{
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    height: 500px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 1) ;
+    margin-bottom: 30px;
+}
+
+
+/* responsive index*/
+@media (max-width:760px){
+    #contacto{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    gap: 40px;
+}
+
+}
+
+
+
+/* responsive mascotas*/
+
+@media (max-width:820px){
+    .tarjetas{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clientes_tarjetas{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .imagenes_animales2 {
+        width: 100%; 
+        max-width: 500px; 
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    .titulo_mascotas {
+        font-size: 50px; 
+    }
+    .titulos_tarjetas {
+        font-size: 25px; 
+    }
+    .parrafos_tarjetas {
+        font-size: 20px; 
+    }
+
+    .boton {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .regreso {
+        padding-left: 20px;
+        justify-content: center; 
+    }
+}
+
+@media (max-width:420px){
+    .tarjetas{
+        display: flex;
+        flex-direction: column;
+    }
+    .tarjetas1{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        padding: 5px;
+    }
+    .clientes_tarjetas{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .clientes_imagenes{
+        height: auto;
+    }
+
+    .titulo_mascotas {
+        font-size: 35px;
+    }
+
+    .titulos_tarjetas {
+        font-size: 30px;
+    }
+
+    .parrafos_tarjetas {
+        font-size: 16px;
+    }
+    
+    .boton {
+        height: 60px;
+        font-size: 20px;
+    }
+}

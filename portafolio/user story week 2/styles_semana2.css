@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: o 15px;
+}
 /*index section */ 
 
 #body_index{
@@ -11,6 +16,7 @@
     display: flex;
     justify-content: center;
     color: rgb(204, 141, 96);
+    margin-bottom: 1rem;
 }
 
 #nav{
@@ -20,6 +26,7 @@
     cursor: pointer;
     transition: ease 0.8s;
     font-size: 20px;
+    margin-bottom: 1rem;
 
 }
 #nav a{
@@ -48,6 +55,7 @@ font-family: "Arvo", serif;
 font-size: 16px;
 text-align: justify;
 color: rgb(114, 111, 108);
+margin-bottom: 1rem;
 }
 
 #portafolio{
@@ -105,8 +113,20 @@ color: rgb(114, 111, 108);
     border-radius: 5px;
     padding: 20px;
     gap: 70px;
+    margin-bottom: 2rem;
 }
 
+.enlace_mascotas{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+
+}
+.enlace_mascotas *{
+    margin-left: 0;
+    margin-right: 0;
+}
 .contacto1 h3{
     color: rgb(204, 141, 96)
 }
@@ -132,7 +152,6 @@ color: rgb(114, 111, 108);
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
     padding-top: 20px;
-    
 }
 
 .formulario_label{
@@ -305,83 +324,4 @@ footer {
     height: 500px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 1) ;
     margin-bottom: 30px;
-}
-
-@media (max-width:760px){
-    .tarjetas{
-        display: flex;
-        flex-direction: column;
-    }
-
-    .clientes_tarjetas{
-        display: grid;
-        grid-template-columns:  1fr 1fr;
-        width: 100%;
-        gap: 15px;
-    }
-
-    .imagenes_animales2 {
-        width: 100%; 
-        max-width: 500px; 
-        height: auto;
-        margin: 0 auto;
-        display: block;
-    }
-    .titulo_mascotas {
-        font-size: 50px; 
-    }
-    .titulos_tarjetas {
-        font-size: 25px; 
-    }
-    .parrafos_tarjetas {
-        font-size: 20px; 
-    }
-
-    .boton {
-        width: 100%;
-        max-width: 400px;
-    }
-    
-    .regreso {
-        padding-left: 20px;
-        justify-content: center; 
-    }
-}
-
-@media (max-width:420px){
-    .tarjetas{
-        display: flex;
-        flex-direction: column;
-    }
-    .tarjetas1{
-        width: 100%;
-        height: auto;
-        align-items: center;
-        padding: 5px;
-    }
-    .clientes_tarjetas{
-        display: grid;
-        grid-template-columns: 1fr;
-        width: 100%;
-    }
-    .clientes_imagenes{
-        height: auto;
-    }
-
-    .titulo_mascotas {
-        font-size: 35px;
-    }
-
-    .titulos_tarjetas {
-        font-size: 30px;
-    }
-
-    .parrafos_tarjetas {
-        font-size: 16px;
-    }
-    
-    .boton {
-        height: 60px;
-        font-size: 20px;
-    }
 }
