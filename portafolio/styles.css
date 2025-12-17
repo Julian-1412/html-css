@@ -198,6 +198,7 @@ footer {
     background-color: rgb(187, 212, 212);
     font-family: "Arvo", serif;
     margin: 20px;
+    box-sizing: border-box;
 }
 
 .titulo_mascotas{
@@ -293,7 +294,7 @@ footer {
     grid-template-rows: 1fr 1fr 1fr;
     gap:30px;
     margin: 0 auto;
-    max-width: px;
+    max-width:1200 px;
     
 }
 
@@ -304,4 +305,83 @@ footer {
     height: 500px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 1) ;
     margin-bottom: 30px;
+}
+
+@media (max-width:760px){
+    .tarjetas{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .clientes_tarjetas{
+        display: grid;
+        grid-template-columns:  1fr 1fr;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .imagenes_animales2 {
+        width: 100%; 
+        max-width: 500px; 
+        height: auto;
+        margin: 0 auto;
+        display: block;
+    }
+    .titulo_mascotas {
+        font-size: 50px; 
+    }
+    .titulos_tarjetas {
+        font-size: 25px; 
+    }
+    .parrafos_tarjetas {
+        font-size: 20px; 
+    }
+
+    .boton {
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    .regreso {
+        padding-left: 20px;
+        justify-content: center; 
+    }
+}
+
+@media (max-width:420px){
+    .tarjetas{
+        display: flex;
+        flex-direction: column;
+    }
+    .tarjetas1{
+        width: 100%;
+        height: auto;
+        align-items: center;
+        padding: 5px;
+    }
+    .clientes_tarjetas{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .clientes_imagenes{
+        height: auto;
+    }
+
+    .titulo_mascotas {
+        font-size: 35px;
+    }
+
+    .titulos_tarjetas {
+        font-size: 30px;
+    }
+
+    .parrafos_tarjetas {
+        font-size: 16px;
+    }
+    
+    .boton {
+        height: 60px;
+        font-size: 20px;
+    }
 }
